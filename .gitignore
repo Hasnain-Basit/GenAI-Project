@@ -1,0 +1,47 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Hugging Face model cache
+.cache/
+huggingface/
+**/.cache/huggingface/
+
+# Generated datasets and outputs
+data/
+.stages/
+results/
+models/
+outputs/
+checkpoints/
+
+# Generated reports and temporary files
+*.log
+*.tmp
+*.temp
+
+# Python packaging
+build/
+dist/
+*.egg-info/

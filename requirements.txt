@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+scikit-image
+Pillow
+matplotlib
+seaborn
+tqdm
+markdown
+# Needed ONLY for the diffusion backend (generate_synthetic.py --backend sd_img2img)
+# Install CPU-only PyTorch first:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+diffusers
+transformers
+accelerate
+safetensors
